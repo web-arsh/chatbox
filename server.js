@@ -13,7 +13,7 @@ const port = process.env.PORT || 3000;
 //cors configuration
 
 const corsOption = {
-    origin: 'https://fabulous-boba-4e334b.netlify.app', // Allow requests from your frontend
+    origin: 'https://chatbox-8qec.onrender.com', // Allow requests from your frontend
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allow specific HTTP methods
     allowedHeaders: ['Content-Type', 'Authorization'], // Allow specific headers
 };
