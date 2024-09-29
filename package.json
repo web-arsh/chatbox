@@ -18,7 +18,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --env-file=.env server.js"
+    "start": "node --env-file=.env server.js"
   },
   "author": "Hammad Arsh",
   "license": "ISC"
