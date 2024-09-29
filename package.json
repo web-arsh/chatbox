@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.4",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "node-localstorage": "^3.0.5",
+    "socket.io": "^4.7.5"
+  },
+  "name": "server.js",
+  "version": "1.0.0",
+  "description": "ChatBox Application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --env-file=.env server.js"
+  },
+  "author": "Hammad Arsh",
+  "license": "ISC"
+}
