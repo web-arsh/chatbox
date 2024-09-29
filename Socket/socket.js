@@ -13,7 +13,7 @@ const getSocketId = (id) => {
 
 const io = new Server(server,{
     cors:{
-        origin: "https://chatbox-8qec.onrender.com",
+        origin: "https://fabulous-boba-4e334b.netlify.app",
         methods: ["GET","POST"],
         allowedHeaders: ["Content-Type","Authorization"],
         credentials: true
