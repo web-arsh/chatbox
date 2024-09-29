@@ -13,7 +13,7 @@ const getSocketId = (id) => {
 
 const io = new Server(server,{
     cors:{
-        origin: "https://fabulous-boba-4e334b.netlify.app",
+        origin: "https://majestic-duckanoo-7c039c.netlify.app",
         methods: ["GET","POST"],
         allowedHeaders: ["Content-Type","Authorization"],
         credentials: true
