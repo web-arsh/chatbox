@@ -4,6 +4,7 @@ import bcrypt, { genSalt } from "bcrypt";
 import { AppErr } from "../../utils/AppErr.js";
 import { v2 as cloudinary } from 'cloudinary';
 
+
 const loginCtrl = async (req,res,next) => {
     const {username,password} = req.body;
     try {
